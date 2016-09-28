@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0401531D9C2CC20041D750 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7E0401521D9C2CC20041D750 /* README.md */; };
 		7E55BD751D9C1327000AE40A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55BD5F1D9C1327000AE40A /* ViewController.swift */; };
 		7E55BD761D9C1327000AE40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E55BD611D9C1327000AE40A /* Assets.xcassets */; };
 		7E55BD771D9C1327000AE40A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E55BD631D9C1327000AE40A /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E0401521D9C2CC20041D750 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7E55BD481D9C10E0000AE40A /* SwiftTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E55BD5F1D9C1327000AE40A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E55BD611D9C1327000AE40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		7E55BD3F1D9C10E0000AE40A = {
 			isa = PBXGroup;
 			children = (
+				7E0401521D9C2CC20041D750 /* README.md */,
 				7E55BD871D9C2528000AE40A /* Podfile */,
 				7E55BD4A1D9C10E0000AE40A /* SwiftTemplateProject */,
 				7E55BD491D9C10E0000AE40A /* Products */,
@@ -197,6 +200,7 @@
 			files = (
 				7E55BD821D9C1327000AE40A /* RootService.swift in Sources */,
 				7E55BD7A1D9C1327000AE40A /* AppDelegate.swift in Sources */,
+				7E0401531D9C2CC20041D750 /* README.md in Sources */,
 				7E55BD7B1D9C1327000AE40A /* AppDelegateServiceDispatcher.swift in Sources */,
 				7E55BD751D9C1327000AE40A /* ViewController.swift in Sources */,
 			);
