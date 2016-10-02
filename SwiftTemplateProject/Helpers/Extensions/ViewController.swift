@@ -15,11 +15,11 @@ class ViewControllerConstants {
 }
 
 extension UIViewController {
-    func presentAlertMessageVC( title: String, message: String, settingsButton: Bool, buttonTitle: String, buttonAction: Selector) {
+    func presentAlertMessageVC( title: String, message: String, settingsButton: Bool, buttonTitle: String, buttonAction: Selector? = nil) {
         let alert = UIAlertController(title: title,
                                       message: message,
                                       preferredStyle: UIAlertControllerStyle.alert)
-        if buttonAction.description != "" {
+        if let buttonAction = buttonAction {
             let tapGesture = UITapGestureRecognizer(target: self, action: buttonAction)
             alert.view.addGestureRecognizer(tapGesture)
         }

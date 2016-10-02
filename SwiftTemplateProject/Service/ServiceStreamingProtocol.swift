@@ -13,4 +13,7 @@ import Foundation
     func startStream( progressHandler: @escaping () -> Void, failure: (_ error: String) -> Void )
     //Getting last updated data
     func obtainData() -> AnyObject?
+    //Cyclic buffer variables
+    func lastIndex() -> Int
+    func bufferSize() -> Int
 }

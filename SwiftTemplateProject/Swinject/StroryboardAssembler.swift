@@ -12,21 +12,22 @@ import SwinjectStoryboard
 
 extension SwinjectStoryboard {
     class func setup() {
-        defaultContainer.registerForStoryboard(MainScreenVC.self, name: "MainScreen") { r, c in
+        defaultContainer.registerForStoryboard(MainScreenVC.self) { r, c in
             c.mainScreenDDM = r.resolve(MainScreenDDM.self)
+            c.twitterService = r.resolve(TwitterStreamingService.self)
         }
         
-        defaultContainer.register(TwitterDataSource.self) { r in
-            let dataSource = TwitterDataSource()
-            return dataSource
-        }
+        defaultContainer.register(TwitterStreamingService.self) { r in
+            let twitterService = TwitterStreamingService()
+            return twitterService
+        }.inObjectScope(.container)
         
         defaultContainer.register(MainScreenDDM.self) { r in
+            
             let mainScreenDDM = MainScreenDDM(
-                dataSource : r.resolve(TwitterDataSource.self) as! TableDataSource,
-                delegate   : r.resolve(MainScreenVC.self) as! MainScreenDelegate
+                twitterService : r.resolve(TwitterStreamingService.self)!
             )
             return mainScreenDDM
-        }
+        }.inObjectScope(.graph)
     }
 }

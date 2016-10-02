@@ -9,5 +9,5 @@
 import Foundation
 
 protocol MainScreenDelegate {
-    func didSelectedRow( rowNumber : Int )
+    func didSelectedTweet( tweet: Tweet )
 }

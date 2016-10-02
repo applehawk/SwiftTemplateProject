@@ -10,12 +10,9 @@
 		7E0401561D9C33420041D750 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0401551D9C33420041D750 /* StoreKit.framework */; };
 		7E0401591D9C371E0041D750 /* AppDelegateAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0401581D9C371E0041D750 /* AppDelegateAssembler.swift */; };
 		7E04015C1D9C64D70041D750 /* MainScreenDDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E04015B1D9C64D70041D750 /* MainScreenDDM.swift */; };
-		7E0401601D9C67590041D750 /* MainScreenMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E04015F1D9C67590041D750 /* MainScreenMainCell.swift */; };
-		7E0401661D9C67920041D750 /* MainScreenMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E0401631D9C67920041D750 /* MainScreenMainCell.xib */; };
 		7E0401671D9C67920041D750 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0401641D9C67920041D750 /* MainScreenVC.swift */; };
 		7E0401681D9C67920041D750 /* MainScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0401651D9C67920041D750 /* MainScreenDelegate.swift */; };
 		7E0401751D9C6F920041D750 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0401711D9C6F920041D750 /* Tweet.swift */; };
-		7E0401771D9C74190041D750 /* TwitterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0401761D9C74190041D750 /* TwitterDataSource.swift */; };
 		7E04017B1D9C75F80041D750 /* ServiceStreamingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0401791D9C75F80041D750 /* ServiceStreamingProtocol.swift */; };
 		7E04017C1D9C75F80041D750 /* TwitterStreamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E04017A1D9C75F80041D750 /* TwitterStreamingService.swift */; };
 		7E04017E1D9D25C20041D750 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E04017D1D9D25C20041D750 /* SwifteriOS.framework */; };
@@ -26,6 +23,8 @@
 		7E21AD751D9DEDC100469591 /* PList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21AD731D9DEDC100469591 /* PList.swift */; };
 		7E21AD791D9DEDEF00469591 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21AD771D9DEDEF00469591 /* Array.swift */; };
 		7E21AD7A1D9DEDEF00469591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21AD781D9DEDEF00469591 /* ViewController.swift */; };
+		7E21AD811DA19E8A00469591 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E21AD7F1DA19E8A00469591 /* TweetCell.xib */; };
+		7E21AD821DA19E8A00469591 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21AD801DA19E8A00469591 /* TweetCell.swift */; };
 		7E55BD761D9C1327000AE40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E55BD611D9C1327000AE40A /* Assets.xcassets */; };
 		7E55BD771D9C1327000AE40A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E55BD631D9C1327000AE40A /* LaunchScreen.storyboard */; };
 		7E55BD781D9C1327000AE40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E55BD651D9C1327000AE40A /* Main.storyboard */; };
@@ -55,12 +54,9 @@
 		7E0401551D9C33420041D750 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7E0401581D9C371E0041D750 /* AppDelegateAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegateAssembler.swift; path = Swinject/AppDelegateAssembler.swift; sourceTree = "<group>"; };
 		7E04015B1D9C64D70041D750 /* MainScreenDDM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenDDM.swift; path = MainScreen/MainScreenDDM.swift; sourceTree = "<group>"; };
-		7E04015F1D9C67590041D750 /* MainScreenMainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenMainCell.swift; path = MainScreen/MainScreenMainCell.swift; sourceTree = "<group>"; };
-		7E0401631D9C67920041D750 /* MainScreenMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainScreenMainCell.xib; path = MainScreen/MainScreenMainCell.xib; sourceTree = "<group>"; };
 		7E0401641D9C67920041D750 /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenVC.swift; path = MainScreen/MainScreenVC.swift; sourceTree = "<group>"; };
 		7E0401651D9C67920041D750 /* MainScreenDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenDelegate.swift; path = MainScreen/MainScreenDelegate.swift; sourceTree = "<group>"; };
 		7E0401711D9C6F920041D750 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
-		7E0401761D9C74190041D750 /* TwitterDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterDataSource.swift; path = Business/TwitterDataSource.swift; sourceTree = "<group>"; };
 		7E0401791D9C75F80041D750 /* ServiceStreamingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceStreamingProtocol.swift; sourceTree = "<group>"; };
 		7E04017A1D9C75F80041D750 /* TwitterStreamingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterStreamingService.swift; sourceTree = "<group>"; };
 		7E04017D1D9D25C20041D750 /* SwifteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwifteriOS.framework; path = Carthage/Build/iOS/SwifteriOS.framework; sourceTree = "<group>"; };
@@ -70,6 +66,8 @@
 		7E21AD731D9DEDC100469591 /* PList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PList.swift; path = SwiftTemplateProject/Helpers/PList.swift; sourceTree = SOURCE_ROOT; };
 		7E21AD771D9DEDEF00469591 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		7E21AD781D9DEDEF00469591 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E21AD7F1DA19E8A00469591 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TweetCell.xib; path = MainScreen/Cells/TweetCell.xib; sourceTree = "<group>"; };
+		7E21AD801DA19E8A00469591 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TweetCell.swift; path = MainScreen/Cells/TweetCell.swift; sourceTree = "<group>"; };
 		7E55BD481D9C10E0000AE40A /* SwiftTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E55BD611D9C1327000AE40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E55BD641D9C1327000AE40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,11 +108,10 @@
 		7E04015A1D9C64A90041D750 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
-				7E0401631D9C67920041D750 /* MainScreenMainCell.xib */,
+				7E21AD7C1DA19DA600469591 /* Cells */,
 				7E0401641D9C67920041D750 /* MainScreenVC.swift */,
 				7E0401651D9C67920041D750 /* MainScreenDelegate.swift */,
 				7E04015B1D9C64D70041D750 /* MainScreenDDM.swift */,
-				7E04015F1D9C67590041D750 /* MainScreenMainCell.swift */,
 			);
 			name = MainScreen;
 			sourceTree = "<group>";
@@ -122,7 +119,6 @@
 		7E04016B1D9C6D040041D750 /* Bussiness Logic */ = {
 			isa = PBXGroup;
 			children = (
-				7E0401761D9C74190041D750 /* TwitterDataSource.swift */,
 				7E0401701D9C6F920041D750 /* Models */,
 			);
 			name = "Bussiness Logic";
@@ -166,6 +162,15 @@
 			name = Extensions;
 			path = SwiftTemplateProject/Helpers/Extensions;
 			sourceTree = SOURCE_ROOT;
+		};
+		7E21AD7C1DA19DA600469591 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7E21AD7F1DA19E8A00469591 /* TweetCell.xib */,
+				7E21AD801DA19E8A00469591 /* TweetCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
 		};
 		7E55BD3F1D9C10E0000AE40A = {
 			isa = PBXGroup;
@@ -350,11 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E55BD881D9C2528000AE40A /* Podfile in Resources */,
-				7E0401661D9C67920041D750 /* MainScreenMainCell.xib in Resources */,
 				7E55BD781D9C1327000AE40A /* Main.storyboard in Resources */,
 				7E55BD761D9C1327000AE40A /* Assets.xcassets in Resources */,
 				7E0401871D9D92320041D750 /* AppConfig.plist in Resources */,
 				7E55BD771D9C1327000AE40A /* LaunchScreen.storyboard in Resources */,
+				7E21AD811DA19E8A00469591 /* TweetCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +419,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E21AD6D1D9DEC5D00469591 /* StroryboardAssembler.swift in Sources */,
-				7E0401771D9C74190041D750 /* TwitterDataSource.swift in Sources */,
 				7E0401671D9C67920041D750 /* MainScreenVC.swift in Sources */,
+				7E21AD821DA19E8A00469591 /* TweetCell.swift in Sources */,
 				7E04017B1D9C75F80041D750 /* ServiceStreamingProtocol.swift in Sources */,
 				7E21AD751D9DEDC100469591 /* PList.swift in Sources */,
 				7E21AD791D9DEDEF00469591 /* Array.swift in Sources */,
@@ -426,7 +431,6 @@
 				7E55BD7A1D9C1327000AE40A /* AppDelegate.swift in Sources */,
 				7E0401751D9C6F920041D750 /* Tweet.swift in Sources */,
 				7E55BD7B1D9C1327000AE40A /* AppDelegateServiceDispatcher.swift in Sources */,
-				7E0401601D9C67590041D750 /* MainScreenMainCell.swift in Sources */,
 				7E0401681D9C67920041D750 /* MainScreenDelegate.swift in Sources */,
 				7E04017C1D9C75F80041D750 /* TwitterStreamingService.swift in Sources */,
 				7E04015C1D9C64D70041D750 /* MainScreenDDM.swift in Sources */,

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="134" id="afm-Uw-0ws" customClass="TweetCell" customModule="SwiftTemplateProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="630" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="afm-Uw-0ws" id="nX7-7i-0ZC">
+                <frame key="frameInset" width="630" height="133.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlO-mB-S5V">
+                        <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="xlO-mB-S5V" secondAttribute="trailing" constant="10" id="1OX-vo-Zwa"/>
+                    <constraint firstAttribute="bottom" secondItem="xlO-mB-S5V" secondAttribute="bottom" id="DQJ-AL-6Ox"/>
+                    <constraint firstItem="xlO-mB-S5V" firstAttribute="leading" secondItem="nX7-7i-0ZC" secondAttribute="leading" constant="15" id="QWD-Tc-bLH"/>
+                    <constraint firstItem="xlO-mB-S5V" firstAttribute="top" secondItem="nX7-7i-0ZC" secondAttribute="top" id="hzw-HO-0dS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="xlO-mB-S5V" id="WNP-KG-eW9"/>
+            </connections>
+            <point key="canvasLocation" x="-160" y="72"/>
+        </tableViewCell>
+    </objects>
+</document>
