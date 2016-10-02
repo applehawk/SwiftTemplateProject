@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Twitter</key>
+	<dict>
+		<key>Consumer Key</key>
+		<string>PZKQADuP0jFQzrmiEMdUqztGB</string>
+		<key>Consumer Secret</key>
+		<string>PiQkF0lGx3D4mT22QAe9U6AceVPSEGmcBPUyAKOXEosO7pOrsx</string>
+		<key>Access Token</key>
+		<string>779999595460001792-6IvC69Eug87J5boWpHLYQfoyaqGutaj</string>
+		<key>Access Token Secret</key>
+		<string>F5JZUnXqqcHDF4X0GXAxWeCGzsPcjIeLu84ZYFG7owlKz</string>
+	</dict>
+</dict>
+</plist>

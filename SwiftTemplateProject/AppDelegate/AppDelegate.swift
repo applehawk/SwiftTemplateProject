@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  Wearever
+//  SwiftTemplateProject
 //
 //  Created by Hawk on 28/09/16.
 //  Copyright © 2016 Hawk. All rights reserved.
 //
 
 import UIKit
+import SwinjectStoryboard
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     // Injected by DI Framework
     var servicesDispatcher : UIApplicationDelegate!
+    
+    override init() {
+        super.init()
+        AppDelegateAssembler().resolveDependencies(appDelegate: self)
+    }
 
     // MARK: Main functions of AppDelegate
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
